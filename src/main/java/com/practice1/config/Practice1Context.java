@@ -26,4 +26,12 @@ public class Practice1Context {
     static class DeployProperties {
     }
 
+    // Deploy environment profiles
+    @Profile("dev")
+    @Configuration
+    @EnableAutoConfiguration
+    @PropertySource("classpath:dev.properties")
+    static class DevelopmentProperties {
+    }
+
 }

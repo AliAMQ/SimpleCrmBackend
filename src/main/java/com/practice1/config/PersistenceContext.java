@@ -21,7 +21,7 @@ import java.util.Properties;
  */
 @Configuration
 @EnableJpaRepositories(basePackages = {"com.practice1.repository","com.practice1.model"})
-@Profile({"rand"})
+@Profile({"dev","rand"})
 public class PersistenceContext {
 
     @Bean(destroyMethod = "close")

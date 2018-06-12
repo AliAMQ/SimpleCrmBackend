@@ -3,7 +3,7 @@
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="fileset" name="Spring Application Context" removed="false">
+        <fileset id="fileset" name="Spring Application Context" removed="false" profiles="rand">
           <file>file://$MODULE_DIR$/src/main/java/com/practice1/config/ControllerConfig.java</file>
           <file>file://$MODULE_DIR$/src/main/java/com/practice1/config/PersistenceContext.java</file>
           <file>file://$MODULE_DIR$/src/main/java/com/practice1/config/Practice1Context.java</file>
